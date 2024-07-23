@@ -40,3 +40,16 @@
 .btn-service:hover{
   background-color: var(--cor-12);
 }
+
+.max-width-40ch{
+  max-width: 40ch;
+}
+
+.max-width-80ch{
+  max-width: 80ch;
+}
+
+.supera-image{
+  height: 300px;
+  width: 600px;
+}
