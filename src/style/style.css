@@ -45,6 +45,10 @@
   max-width: 40ch;
 }
 
+.max-width-50ch{
+  max-width: 50ch;
+}
+
 .max-width-80ch{
   max-width: 80ch;
 }
@@ -52,4 +56,11 @@
 .supera-image{
   height: 300px;
   width: 600px;
+}
+
+.img-attachment{
+  background-image: url(../images/image.jpeg);
+  width: 550px;
+  background-size: cover;
+  background-attachment: fixed;
 }
