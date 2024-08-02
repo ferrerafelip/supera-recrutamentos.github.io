@@ -8,8 +8,21 @@
   --cor-21: #fff;
   --cor-22: #D9D9D9;
   --cor-31: #000;
-
 }
+
+body{
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.17rem;
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
 
 .blue-bg{
   background-color: var(--cor-01);
@@ -68,6 +81,17 @@
   background-attachment: fixed;
 }
 
-.mt-70px{
-  margin-top: 70px;
+.mt-btn{
+  margin-top: 4.375rem;
 }
+
+@media (max-width: 400px) {
+  .mt-btn {
+    margin-top: 0.75rem;
+  }
+}
+
+.svg{
+  max-width: 50%;
+}
+
